@@ -5,7 +5,7 @@ body {
 .header {
     background: white;
     display: flex;
-     margin-left: 15%;
+    margin-left: 15%;
     margin-right: 15%;
 }
 
@@ -21,19 +21,21 @@ body {
     font-size: 16px;
     padding: 19px;
     list-style-type: none;
+    font-family: 'Urbanist', sans-serif;
 }
 
 .text__p {
     text-align: end;
     color: #A52424;
-     padding: 19px;
+    padding: 19px;
+    font-family: 'Urbanist', sans-serif;
 }
 
 .header__img {
     height: 45px;
     width: 105px;
     align-items: flex-start;
-     padding: 19px;
+    padding: 19px;
 }
 
 .container {
@@ -57,22 +59,21 @@ body {
 .yummi {
     color: black;
     font-size: 72px;
-    font-family: Bold;
-    margin: 0;
-    margin-top: 80px;
+    font-family: 'Urbanist', sans-serif;
+    margin: 80px 0 0 0;
 }
 
 .pug {
     color: Black;
     font-size: 72px;
-    font-family: Bold;
+    font-family: 'Urbanist', sans-serif;
     margin: 0;
 }
 
 .text__item {
     color: #101010;
     font-size: 22px;
-    font-family: Bold;
+    font-family: 'Urbanist', sans-serif;
 }
 
 .button {
@@ -83,7 +84,7 @@ body {
     margin-top: 40px;
     border: 1px solid #A52424;
     transition: 0.6s;
-
+    font-family: 'Urbanist', sans-serif;
 }
 
 .button:hover {
@@ -101,7 +102,7 @@ body {
 }
 
 .about__h1 {
-font-family: Bold;
+    font-family: 'Urbanist', sans-serif;
     color: #232323;
     font-size: 64px;
 }
@@ -116,10 +117,10 @@ font-family: Bold;
     width: 574px;
     height: 232px;
     padding: 0 60px 100px 60px;
-/*
-    border: 1px solid white;
-    box-shadow: 1px 1px 1px 1px #c8c8c8;
-*/
+    /*
+        border: 1px solid white;
+        box-shadow: 1px 1px 1px 1px #c8c8c8;
+    */
 
 }
 
@@ -128,18 +129,19 @@ font-family: Bold;
     height: 232px;
     padding: 100px 60px 0 60px;
     margin: 0;
+    font-family: 'Urbanist', sans-serif;
 }
 
 
 .colortext {
     color: #A52424;
-    font-family: Bold;
     font-size: 22px;
+    font-family: 'Urbanist', sans-serif;
 }
 
 .about__p {
     color: #A52424;
-    font-family: Bold;
+    font-family: 'Urbanist', sans-serif;
     font-size: 22px;
     margin-left: 100px;
 }
@@ -151,7 +153,7 @@ font-family: Bold;
 }
 
 .port__h1 {
-    font-family: Bold;
+    font-family: 'Urbanist', sans-serif;
     color: #232323;
     font-size: 64px;
 }
@@ -180,7 +182,7 @@ font-family: Bold;
     margin-top: 40px;
     border: 1px solid #A52424;
     transition: 0.6s;
-
+    font-family: 'Urbanist', sans-serif;
 }
 
 .port__button:hover {
@@ -189,11 +191,13 @@ font-family: Bold;
 }
 
 .port__p__2 {
-     width: 302px;
+    width: 302px;
+    font-family: 'Urbanist', sans-serif;
+
 }
 
 .port__p {
-    font-family: Bold;
+    font-family: 'Urbanist', sans-serif;
     font-size: 22px;
     font-weight: 500;
 }
@@ -206,7 +210,7 @@ font-family: Bold;
 }
 
 .price__h1 {
-    font-family: Bold;
+    font-family: 'Urbanist', sans-serif;
     color: #232323;
     font-size: 64px;
 }
@@ -218,8 +222,8 @@ font-family: Bold;
 
 .price__title {
     width: 400px;
-    height: 540px;
-        box-shadow: 1px 1px 1px 1px #c8c8c8;
+    height: 600px;
+    box-shadow: 1px 1px 1px 1px #c8c8c8;
     margin: 0;
     padding: 0;
 }
@@ -229,8 +233,8 @@ font-family: Bold;
     height: 290px;
     justify-content: center;
     display: block;
-      margin: 0 auto;
-    transition: 1s;
+    margin: 0 auto;
+    transition: 0.5s;
 }
 
 .price__img:hover {
@@ -240,7 +244,7 @@ font-family: Bold;
 
 .price__p {
     color: #A52424;
-    font-family: Bold;
+    font-family: 'Urbanist', sans-serif;
     font-size: 24px;
     text-align: center;
 }
@@ -253,9 +257,8 @@ font-family: Bold;
 
 .price__text__p {
     color: #232323;
-    font-family: Bold;
+    font-family: 'Urbanist', sans-serif;
     margin: 0;
-    margin: 4px;
 }
 
 .price__block {
@@ -265,12 +268,13 @@ font-family: Bold;
 }
 
 .price__button {
-        background: white;
+    background: white;
     color: #A52424;
     width: 202px;
     height: 50px;
     border: 1px solid #A52424;
     transition: 0.6s;
+    font-family: 'Urbanist', sans-serif;
 }
 
 .price__button:hover {
@@ -281,10 +285,9 @@ font-family: Bold;
 .price__price__p {
     color: #A52424;
     font-size: 30px;
-    font-family: Bold;
+    font-family: 'Urbanist', sans-serif;
     margin: 0;
 }
-
 
 
 .container__reg {
@@ -294,7 +297,7 @@ font-family: Bold;
 }
 
 .reg__h1 {
-    font-family: Bold;
+    font-family: 'Urbanist', sans-serif;
     color: #232323;
     font-size: 64px;
 }
@@ -308,10 +311,6 @@ font-family: Bold;
 
 }
 
-.reg__img:hover {
-    width: 629px;
-    height: 885px;
-}
 
 .reg__img2 {
     width: 329px;
@@ -321,10 +320,6 @@ font-family: Bold;
     transition: 1s;
 }
 
-.reg__img2:hover {
-    width: 629px;
-    height: 1085px;
-}
 
 .reg__main {
     display: flex;
@@ -345,37 +340,36 @@ font-family: Bold;
 }
 
 .name__form__3 {
-     background: white;
+    background: white;
     color: #A52424;
     width: 300px;
     height: 40px;
-    margin 20px;
+    margin: 20px;
     border: 1px solid #afafaf;
     padding: 5px;
-    margin-top: 20px;
 }
 
 .email__form__3 {
-      background: white;
+    background: white;
     color: #A52424;
     width: 300px;
     height: 40px;
-     margin 10px;
+    margin: 20px 10px 10px 10px;
     border: 1px solid #afafaf;
     padding: 5px;
-    margin-top: 20px;
+
 }
 
 .comment {
     width: 300px;
-     border: 1px solid #afafaf;
+    border: 1px solid #afafaf;
     padding: 5px;
     margin-top: 20px;
 }
 
 .first__b__3 {
     width: 315px;
-     background: white;
+    background: white;
     color: #A52424;
     height: 50px;
     border: 1px solid #A52424;
@@ -390,11 +384,10 @@ font-family: Bold;
 }
 
 .footer {
-     margin-left: 15%;
+    margin-left: 15%;
     margin-right: 15%;
     display: flex;
     justify-content: space-around;
-    border: 1px 0 0 0 solid black;
 }
 
 .img__f {
@@ -414,6 +407,7 @@ font-family: Bold;
 
 .phone__footer {
     padding: 20px;
+    font-family: 'Urbanist', sans-serif;
 }
 
 
