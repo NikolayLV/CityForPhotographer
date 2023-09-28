@@ -1,3 +1,6 @@
+p, h1, h2 ,h3 button {
+    font-family: 'Open Sans', sans-serif;
+}
 body {
     margin: 0;
 }
@@ -21,14 +24,12 @@ body {
     font-size: 16px;
     padding: 19px;
     list-style-type: none;
-    font-family: 'Urbanist', sans-serif;
 }
 
 .text__p {
     text-align: end;
     color: #A52424;
     padding: 19px;
-    font-family: 'Urbanist', sans-serif;
 }
 
 .header__img {
@@ -59,14 +60,12 @@ body {
 .yummi {
     color: black;
     font-size: 72px;
-    font-family: 'Urbanist', sans-serif;
     margin: 80px 0 0 0;
 }
 
 .pug {
     color: Black;
     font-size: 72px;
-    font-family: 'Urbanist', sans-serif;
     margin: 0;
 }
 
@@ -84,7 +83,6 @@ body {
     margin-top: 40px;
     border: 1px solid #A52424;
     transition: 0.6s;
-    font-family: 'Urbanist', sans-serif;
 }
 
 .button:hover {
@@ -102,7 +100,6 @@ body {
 }
 
 .about__h1 {
-    font-family: 'Urbanist', sans-serif;
     color: #232323;
     font-size: 64px;
 }
@@ -117,11 +114,6 @@ body {
     width: 574px;
     height: 232px;
     padding: 0 60px 100px 60px;
-    /*
-        border: 1px solid white;
-        box-shadow: 1px 1px 1px 1px #c8c8c8;
-    */
-
 }
 
 .about__text__p2 {
@@ -129,19 +121,16 @@ body {
     height: 232px;
     padding: 100px 60px 0 60px;
     margin: 0;
-    font-family: 'Urbanist', sans-serif;
 }
 
 
 .colortext {
     color: #A52424;
     font-size: 22px;
-    font-family: 'Urbanist', sans-serif;
 }
 
 .about__p {
     color: #A52424;
-    font-family: 'Urbanist', sans-serif;
     font-size: 22px;
     margin-left: 100px;
 }
@@ -153,7 +142,6 @@ body {
 }
 
 .port__h1 {
-    font-family: 'Urbanist', sans-serif;
     color: #232323;
     font-size: 64px;
 }
@@ -182,7 +170,6 @@ body {
     margin-top: 40px;
     border: 1px solid #A52424;
     transition: 0.6s;
-    font-family: 'Urbanist', sans-serif;
 }
 
 .port__button:hover {
@@ -192,12 +179,9 @@ body {
 
 .port__p__2 {
     width: 302px;
-    font-family: 'Urbanist', sans-serif;
-
 }
 
 .port__p {
-    font-family: 'Urbanist', sans-serif;
     font-size: 22px;
     font-weight: 500;
 }
@@ -210,7 +194,6 @@ body {
 }
 
 .price__h1 {
-    font-family: 'Urbanist', sans-serif;
     color: #232323;
     font-size: 64px;
 }
@@ -237,14 +220,8 @@ body {
     transition: 0.5s;
 }
 
-.price__img:hover {
-    width: 400px;
-    height: 400px;
-}
-
 .price__p {
     color: #A52424;
-    font-family: 'Urbanist', sans-serif;
     font-size: 24px;
     text-align: center;
 }
@@ -257,7 +234,6 @@ body {
 
 .price__text__p {
     color: #232323;
-    font-family: 'Urbanist', sans-serif;
     margin: 0;
 }
 
@@ -265,6 +241,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 15px;
+    margin-top: 80px;
 }
 
 .price__button {
@@ -274,7 +251,6 @@ body {
     height: 50px;
     border: 1px solid #A52424;
     transition: 0.6s;
-    font-family: 'Urbanist', sans-serif;
 }
 
 .price__button:hover {
@@ -285,7 +261,6 @@ body {
 .price__price__p {
     color: #A52424;
     font-size: 30px;
-    font-family: 'Urbanist', sans-serif;
     margin: 0;
 }
 
@@ -297,7 +272,6 @@ body {
 }
 
 .reg__h1 {
-    font-family: 'Urbanist', sans-serif;
     color: #232323;
     font-size: 64px;
 }
@@ -344,7 +318,7 @@ body {
     color: #A52424;
     width: 300px;
     height: 40px;
-    margin: 20px;
+    margin-top: 80px;
     border: 1px solid #afafaf;
     padding: 5px;
 }
@@ -354,7 +328,7 @@ body {
     color: #A52424;
     width: 300px;
     height: 40px;
-    margin: 20px 10px 10px 10px;
+    margin-top: 20px;
     border: 1px solid #afafaf;
     padding: 5px;
 
@@ -407,7 +381,6 @@ body {
 
 .phone__footer {
     padding: 20px;
-    font-family: 'Urbanist', sans-serif;
 }
 
 
